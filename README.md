@@ -84,7 +84,7 @@ Autonomous valet parking systems eliminae the need for human drivers to find par
 
 ### :fire: Update
 
-- [2024/03/04] We have released the ParkScape, you can down the dataset from [here](https://github.com/Vipermdl/Oxyformer/blob/main/data.md).
+- [2024/03/04] We have released the ParkScape, you can download the dataset from [here](https://github.com/Vipermdl/Oxyformer/blob/main/data.md).
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
@@ -113,9 +113,46 @@ First, install dependencies
 <!-- Roadmap -->
 ## :compass: Checkpoints
 
-To run the evaluation process, you need to download some model weights, 
+To run the evaluation process, you need to download the model weights
 
-### :art: Dissolved Oxygen measurements
+```bash
+wget -q https://github.com/Vipermdl/releases/download/v0.1.0-alpha/parkscape_detector.pth
+```
+
+### :art: Inference with detect.py
+
+```bash
+python detect.py --weights parkscape_detector.pth --source 0                               # webcam
+                                                     img.jpg                         # image
+                                                     vid.mp4                         # video
+                                                     screen                          # screenshot
+                                                     path/                           # directory
+                                                     list.txt                        # list of images
+                                                     list.streams                    # list of streams
+                                                     'path/*.jpg'                    # glob
+                                                     'https://youtu.be/LNwODJXcvt4'  # YouTube
+                                                     'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+```
+
+### :key: Training
+
+After the model and dataset download automatically, training time for the parking slot detector are 2 days on a NVIDIA 3090 GPU (Multi-GPU times faster). Use the largest `--batch-size` possible, or pass `--batch-size -1` for detector [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092).
+
+- More details will be updated soon...
+- After download the driven factors, run the following command to obtain the dataset dicatating Oxyformer's input and output data and train/val/test splits.
+
+```bash
+python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.yaml  --batch-size 16                                                              
+```
+
+<!-- Code of Conduct -->
+## :scroll: Results
+
+- See [DATA.md](https://github.com/Vipermdl/Oxyformer/blob/main/data.md) for instructions on how to download the data of our Oxyformer.
+- Please read the [DRAW.md](https://github.com/Vipermdl/Oxyformer/blob/main/draw.md) to generate the paper figures.
+
+<!-- Contributing -->
+
 
 | Name                                                                                |Date accessed|
 | ----------------------------------------------------------------------------------- |------ |
