@@ -55,19 +55,14 @@ Maybe you can mention me or this repo in the acknowledgements too
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  * [Model architecture](#camera-model-architecture)
-  * [Contributions](#dart-contributions)
+  * [Model architecture](#fire-update)
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
-- [Data preparation](#compass-data-preparation)
-  * [Dissolved Oxygen measurements](#art-dissolved-oxyen-measurements)
-  * [Driven factors](#key-driven-factors)
-- [Develop the Oxyformer](#eyes-develop-the-oxyformer)
-  * [Training Oxyformer](#test_tube-training-oxyformer)
-  * [Run inference](#running-run-inference)
-  * [Post process](#triangular_flag_on_post-post-process)
- - [Data and Results](#scroll-data-and-results)
+- [Methodology](#compass-data-preparation)
+  * [Inference](#art-inference)
+  * [Training](#key-traing)
+- [Results](#scroll-results)
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
@@ -149,10 +144,10 @@ python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.
 
 | Method                                                                              |Backbone|AP_{50}|AP_{75}|AP|AP_{M}|FPS|
 | ----------------------------------------------------------------------------------- |------ |------ |------ |------ |------ |------ |
-| [CID](https://www.ncei.noaa.gov/)|HRNet-W32|49.9|46.3|43.9|46.7|15.46|
-| [DEKR](https://cchdo.ucsd.edu/)|HRNet-W32|48.4|45.3|43.3|46.3|16.56|
-| [Associative Embedding](https://www.pangaea.de/)|HRNet-W32|52.9|43.9|43.8|48.0|5.854|
-| [CenterNet](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|DLA-34|51.4|47.5|44.9|48.5|52.63|
+| [CID](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Contextual_Instance_Decoupling_for_Robust_Multi-Person_Pose_Estimation_CVPR_2022_paper.pdf/)|HRNet-W32|49.9|46.3|43.9|46.7|15.46|
+| [DEKR](https://openaccess.thecvf.com/content/CVPR2021/papers/Geng_Bottom-Up_Human_Pose_Estimation_via_Disentangled_Keypoint_Regression_CVPR_2021_paper.pdf)|HRNet-W32|48.4|45.3|43.3|46.3|16.56|
+| [Associative Embedding](https://proceedings.neurips.cc/paper_files/paper/2017/file/8edd72158ccd2a879f79cb2538568fdc-Paper.pdf)|HRNet-W32|52.9|43.9|43.8|48.0|5.854|
+| [CenterNet](https://arxiv.org/pdf/1904.07850.pdf)|DLA-34|51.4|47.5|44.9|48.5|52.63|
 | [Our]|CSPDarkNet53|55.1|50.9|47.0|48.1|54.05|
 
 
