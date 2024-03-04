@@ -79,7 +79,7 @@ Autonomous valet parking systems eliminae the need for human drivers to find par
 
 ### :fire: Update
 
-- [2024/03/04] We have released the ParkScape, you can download the dataset from [here](https://github.com/Vipermdl/Oxyformer/blob/main/data.md).
+- [2024/03/04] We have released the ParkScape, you can download the dataset from [here](https://pan.baidu.com/s/1scbpA9_Kq9CFZGtcDuGc-g?pwd=zni5).
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
