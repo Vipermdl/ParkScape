@@ -138,21 +138,12 @@ python detect.py --weights parkscape_detector.pth --source 0                    
 
 After the model and dataset download automatically, training time for the parking slot detector are 2 days on a NVIDIA 3090 GPU (Multi-GPU times faster). Use the largest `--batch-size` possible, or pass `--batch-size -1` for detector [AutoBatch](https://github.com/ultralytics/yolov5/pull/5092).
 
-- More details will be updated soon...
-- After download the driven factors, run the following command to obtain the dataset dicatating Oxyformer's input and output data and train/val/test splits.
-
 ```bash
 python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.yaml  --batch-size 16                                                              
 ```
 
 <!-- Code of Conduct -->
 ## :scroll: Results
-
-- See [DATA.md](https://github.com/Vipermdl/Oxyformer/blob/main/data.md) for instructions on how to download the data of our Oxyformer.
-- Please read the [DRAW.md](https://github.com/Vipermdl/Oxyformer/blob/main/draw.md) to generate the paper figures.
-
-<!-- Contributing -->
-
 
 | Name                                                                                |Date accessed|
 | ----------------------------------------------------------------------------------- |------ |
@@ -161,67 +152,6 @@ python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.
 | [Pangaea Database](https://www.pangaea.de/)|02-2023|
 | [Global Ocean Data Analysis](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|02-2023|
 
-- After download the measurements of oxygen data, run the following command to data compilation and quality control
-
-```bash
-  # interpolate depth mapping using pchip function and data integrated.
-  python scripts/interpolate.py
-  # quality control for observational oxygen data
-  python scripts/quality_control.py
-```
-
-### :key: Driven factors
-
-- More details will be updated soon...
-- After download the driven factors, run the following command to obtain the dataset dicatating Oxyformer's input and output data and train/val/test splits.
-
-```bash
-  python scripts/label_utils.py --merge --splits
-```
-
-## :eyes: Develop the Oxyformer
-
-<!-- Screenshots -->
-### :camera: Model architecture
-
-<!-- <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div> -->
-
-<!-- Running Tests -->
-### :test_tube: Training Oxyformer
-
-To train Oxyformer, run the following command
-
-```bash
-  python main.py experiments/Oxyformer.toml
-```
-
-<!-- Run Locally -->
-### :running: Run inference
-
-To save predictions between July 2002 and December 2020 as NetCDFs for Oxyformer run
-
-```bash
-  python inference.py experiments/inference.toml -o outputdir
-```
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Post process
-
-The post-processing algorithm is then applied
-
-```bash
-  python post-processing/mask_result_by_bathymetric.py
-```
-
-<!-- Code of Conduct -->
-## :scroll: Data and Results
-
-- See [DATA.md](https://github.com/Vipermdl/Oxyformer/blob/main/data.md) for instructions on how to download the data of our Oxyformer.
-- Please read the [DRAW.md](https://github.com/Vipermdl/Oxyformer/blob/main/draw.md) to generate the paper figures.
-
-<!-- Contributing -->
 ## :wave: Contributing
 
 <a href="https://github.com/Vipermdl/ParkScape/graphs/contributors">
