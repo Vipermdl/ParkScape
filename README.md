@@ -182,8 +182,8 @@ The post-processing algorithm is then applied
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Vipermdl/Oxyformer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Vipermdl/Oxyformer" />
+<a href="https://github.com/Vipermdl/ParkScape/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Vipermdl/ParkScape" />
 </a>
 
 Contributions are always welcome!
