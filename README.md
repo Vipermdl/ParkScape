@@ -75,9 +75,11 @@ Maybe you can mention me or this repo in the acknowledgements too
 
 <!-- About the Project -->
 ## :star2: About the Project
+
 <div style="color:#0000FF" align="center">
-<img src="2017_mel_arlnet50_e100_b32.png"/> 
+<img src="imgs/fig1.png"/> 
 </div>
+
 ### :fire: Update
 
 - [2024/03/04] We have released the ParkScape, you can down the dataset from [here](https://github.com/Vipermdl/Oxyformer/blob/main/data.md).
