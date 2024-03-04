@@ -19,22 +19,22 @@ Maybe you can mention me or this repo in the acknowledgements too
 <!-- Badges -->
 <p>
   <a href="https://github.com/Vipermdl/ParkScape/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Vipermdl/Oxyformer" alt="contributors" />
+    <img src="https://img.shields.io/github/contributors/Vipermdl/ParkScape" alt="contributors" />
   </a>
   <a href="">
     <img src="https://img.shields.io/github/last-commit/Vipermdl/ParkScape" alt="last update" />
   </a>
   <a href="https://github.com/Vipermdl/ParkScape/network/members">
-    <img src="https://img.shields.io/github/forks/Vipermdl/Oxyformer" alt="forks" />
+    <img src="https://img.shields.io/github/forks/Vipermdl/ParkScape" alt="forks" />
   </a>
   <a href="https://github.com/Vipermdl/ParkScape/stargazers">
-    <img src="https://img.shields.io/github/stars/Vipermdl/Oxyformer" alt="stars" />
+    <img src="https://img.shields.io/github/stars/Vipermdl/ParkScape" alt="stars" />
   </a>
   <a href="https://github.com/Vipermdl/ParkScape/issues/">
-    <img src="https://img.shields.io/github/issues/Vipermdl/Oxyformer" alt="open issues" />
+    <img src="https://img.shields.io/github/issues/Vipermdl/ParkScape" alt="open issues" />
   </a>
 <!--   <a href="https://github.com/Vipermdl/ParkScape/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Vipermdl/Oxyformer.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/Vipermdl/ParkScape.svg" alt="license" />
   </a> -->
 </p>
    
