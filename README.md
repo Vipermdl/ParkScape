@@ -147,13 +147,13 @@ python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.
 <!-- Code of Conduct -->
 ## :scroll: Results
 
-| Method                                                                              |Backbone|Backbone|Backbone|Backbone|Backbone|Backbone|
-| ----------------------------------------------------------------------------------- |------ |Backbone|Backbone|Backbone|Backbone|Backbone|
-| [CID](https://www.ncei.noaa.gov/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
-| [DEKR](https://cchdo.ucsd.edu/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
-| [Associative Embedding](https://www.pangaea.de/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
-| [CenterNet](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|DLA-34|Backbone|Backbone|Backbone|Backbone|Backbone|
-| [Our]|CSPDarkNet53|Backbone|Backbone|Backbone|Backbone|Backbone|
+| Method                                                                              |Backbone|AP_{50}|AP_{75}|AP|AP_{M}|FPS|
+| ----------------------------------------------------------------------------------- |------ |------ |------ |------ |------ |------ |
+| [CID](https://www.ncei.noaa.gov/)|HRNet-W32|49.9|46.3|43.9|46.7|15.46|
+| [DEKR](https://cchdo.ucsd.edu/)|HRNet-W32|48.4|45.3|43.3|46.3|16.56|
+| [Associative Embedding](https://www.pangaea.de/)|HRNet-W32|52.9|43.9|43.8|48.0|5.854|
+| [CenterNet](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|DLA-34|51.4|47.5|44.9|48.5|52.63|
+| [Our]|CSPDarkNet53|55.1|50.9|47.0|48.1|54.05|
 
 
 ## :wave: Contributing
