@@ -80,6 +80,8 @@ Maybe you can mention me or this repo in the acknowledgements too
 <img src="imgs/fig1.png"/> 
 </div>
 
+Autonomous valet parking systems eliminae the need for human drivers to find parking slots, reducing the hassle associated with parking in congested areas. Fisheye imags provise valuable information over a large area instantaneously; nevertheless, no current dataset captures the complexity of parking scenes at the level of granularity required by real-world applications. To address this, we introduce ParkScapes, an fisheye image dataset with highly-accurate, fine-grained annotation for corner-based parking slot labeling. ParkScape provides annotation for 10,000 images, covering a variety of diverse scanarios, including shopping malls, industrial parks, and communities. Please cite if you use it in your work!
+
 ### :fire: Update
 
 - [2024/03/04] We have released the ParkScape, you can down the dataset from [here](https://github.com/Vipermdl/Oxyformer/blob/main/data.md).
@@ -91,7 +93,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :bangbang: Prerequisites
 
 * Python 3.8
-* Pytorch 1.10.1
+* Pytorch 1.11.0
 * CUDA 11.3 or higher
 
 <!-- Installation -->
@@ -101,18 +103,17 @@ First, install dependencies
 
 ```bash
   # clone project 
-  git clone https://github.com/Vipermdl/Oxyformer
+  git clone https://github.com/Vipermdl/ParkScape
   
   # install project
-  cd Oxyformer
+  cd ParkScape
   pip install -r requirements.txt
 ```
 
 <!-- Roadmap -->
-## :compass: Data preparation
+## :compass: Checkpoints
 
-* [x] Dissolved Oxygen measurements
-* [ ] Driven factors
+To run the evaluation process, you need to download some model weights, 
 
 ### :art: Dissolved Oxygen measurements
 
