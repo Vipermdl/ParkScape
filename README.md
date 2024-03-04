@@ -111,7 +111,9 @@ First, install dependencies
 ```
 
 <!-- Roadmap -->
-## :compass: Checkpoints
+## :compass: Benchmark method
+
+### :art: Inference
 
 To run the evaluation process, you need to download the model weights
 
@@ -119,7 +121,7 @@ To run the evaluation process, you need to download the model weights
 wget -q https://github.com/Vipermdl/releases/download/v0.1.0-alpha/parkscape_detector.pth
 ```
 
-### :art: Inference with detect.py
+ Inference with detect.py
 
 ```bash
 python detect.py --weights parkscape_detector.pth --source 0                               # webcam
@@ -145,12 +147,14 @@ python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.
 <!-- Code of Conduct -->
 ## :scroll: Results
 
-| Name                                                                                |Date accessed|
-| ----------------------------------------------------------------------------------- |------ |
-| [World Ocean Database](https://www.ncei.noaa.gov/)|02-2023|
-| [CLIVAR and Carbon Hydrographic Database](https://cchdo.ucsd.edu/)|02-2023|
-| [Pangaea Database](https://www.pangaea.de/)|02-2023|
-| [Global Ocean Data Analysis](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|02-2023|
+| Method                                                                              |Backbone|Backbone|Backbone|Backbone|Backbone|Backbone|
+| ----------------------------------------------------------------------------------- |------ |Backbone|Backbone|Backbone|Backbone|Backbone|
+| [CID](https://www.ncei.noaa.gov/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
+| [DEKR](https://cchdo.ucsd.edu/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
+| [Associative Embedding](https://www.pangaea.de/)|HRNet-W32|Backbone|Backbone|Backbone|Backbone|Backbone|
+| [CenterNet](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/GLODAPv2_2021/)|DLA-34|Backbone|Backbone|Backbone|Backbone|Backbone|
+| [Our]|CSPDarkNet53|Backbone|Backbone|Backbone|Backbone|Backbone|
+
 
 ## :wave: Contributing
 
@@ -191,6 +195,4 @@ Project Link: [https://github.com/Vipermdl/ParkScape](https://github.com/Vipermd
 
 Use this section to mention useful resources and libraries that you have used in your projects.
 
- - [Xarray](https://docs.xarray.dev/en/stable/)
- - [Cartopy](https://scitools.org.uk/cartopy/docs/latest/)
- - [GEBCO_2022](https://www.gebco.net/data_and_products/gridded_bathymetry_data/gebco_2022/)
+ - [yolov5](https://github.com/ultralytics/yolov5)
