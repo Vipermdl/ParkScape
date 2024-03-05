@@ -155,7 +155,6 @@ python train.py --data parkscape.yaml --epochs 300  --cfg parking_slot_detector.
 
 <a href="https://github.com/Vipermdl/ParkScape/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Vipermdl/ParkScape" />
-  <img src="https://contrib.rocks/image?repo=Vipermdl/ParkScape" />
 </a>
 
 Contributions are always welcome!
