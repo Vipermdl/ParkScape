@@ -66,7 +66,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
+- [Citation](#gem-acknowledgements)
 
 <!-- About the Project -->
 ## :star2: About the Project
@@ -186,8 +186,19 @@ Project Link: [https://github.com/Vipermdl/ParkScape](https://github.com/Vipermd
 
 
 <!-- Acknowledgments -->
-## :gem: Acknowledgements
+## :gem: Citation
 
-Use this section to mention useful resources and libraries that you have used in your projects.
+If ParkScape is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
 
- - [yolov5](https://github.com/ultralytics/yolov5)
+```bash
+@ARTICLE{fu2024parkscape,
+  author={Fu, Li and Ma, Dongliang and Qu, Xin and Jiang, Xin and Shan, Lie and Zeng, Dan},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={ParkScape: A Large-Scale Fisheye Dataset for Parking Slot Detection and a Benchmark Method}, 
+  year={2024},
+  volume={73},
+  number={},
+  pages={1-13},
+  keywords={Cameras;Distortion;Autonomous vehicles;Detectors;Convolution;Lighting;Annotations;Autonomous driving;cameras;datasets;fisheye images;parking slot detection},
+  doi={10.1109/TIM.2024.3406840}}
+```
