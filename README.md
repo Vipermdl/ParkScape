@@ -66,7 +66,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 - [Contributing](#wave-contributing)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
-- [Citation](#gem-acknowledgements)
+- [Citation](#gem-citation)
 
 <!-- About the Project -->
 ## :star2: About the Project
